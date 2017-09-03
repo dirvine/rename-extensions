@@ -1,0 +1,8 @@
+[package]
+authors = ["David Irvine <david.irvine@maidsafe.net>"]
+name = "rename-extensions"
+version = "0.1.0"
+
+[dependencies]
+clap = "~2.26.0"
+glob = "~0.2.11"
