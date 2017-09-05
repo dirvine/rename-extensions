@@ -3,7 +3,7 @@ authors = ["David Irvine <david.irvine@maidsafe.net>"]
 name = "rename-extensions"
 version = "0.2.0"
 description = "A simple script to rename files extensions."
-license = "GPL-3"
+license = "GPL-3.0"
 
 [dependencies]
 clap = "~2.26.0"
