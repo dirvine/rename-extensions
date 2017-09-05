@@ -9,10 +9,10 @@ use std::fs;
 
 
 fn main() {
-    let matches = App::new("rename file extensions")
-        .version("0.1")
-        .author("D. Irvine <david.irvine@maidsafe.net>")
-        .about("Rename file exensions (includes subdirectories)")
+    let matches = App::new(env!("CARGO_PKG_NAME"))
+        .author(env!("CARGO_PKG_AUTHORS"))
+        .version(env!("CARGO_PKG_VERSION"))
+        .about(env!("CARGO_PKG_DESCRIPTION"))
         .arg(
             Arg::with_name("start_dir")
                 .help(
