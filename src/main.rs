@@ -1,3 +1,13 @@
+//! A simple toy script that allows a user to rename file extensions
+//! recursively.
+//!
+//! # Usage
+//! `rename-extensions <path> <extension from> <extension to>`
+//!
+//!
+//! # Installation
+//! `cargo install rename-extensions`
+//!
 extern crate clap;
 extern crate glob;
 
